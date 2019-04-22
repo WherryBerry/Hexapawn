@@ -1,0 +1,3 @@
+turn_number = 0
+player_turn = True
+move_log = []
