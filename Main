@@ -4,6 +4,7 @@ import keyboard
 
 turn_number = 0
 move_log = []
+board = []
 
 while turn_number == 0:
     try:
