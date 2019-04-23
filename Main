@@ -6,4 +6,11 @@ turn_number = 0
 move_log = []
 
 while turn_number == 0:
-    if 
+    try:
+        if keyboard_is_pressed('g'):
+            turn_number += 1
+            break
+        else:
+            pass
+    except:
+        break
