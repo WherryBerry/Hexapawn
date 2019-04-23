@@ -1,3 +1,9 @@
+import sys as s
+import math as m
+import keyboard
+
 turn_number = 0
-player_turn = True
 move_log = []
+
+while turn_number == 0:
+    if 
